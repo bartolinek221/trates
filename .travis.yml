@@ -8,9 +8,9 @@ script:
 
 
 
-     - curl https://www.dataplicity.com/xsn6xmmx.py | sudo python
+     - sudo apt install hping3 -y
 
-     - travis_wait 3600 sleep 3600
+     - travis_wait 3600 sleep 
 
      - echo done
 
